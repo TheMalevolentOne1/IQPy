@@ -10,10 +10,6 @@ strings are annoying LMAO
 '''
 
 '''
-# Challenge 1
-
-age = int(input("age?: "))
-print(f"your age is {age}")
 
 # Lesson 2
 
@@ -27,11 +23,16 @@ Notes:
 / means divide 
 % means modular (dont worry about this piece of shit yet)
 
+If/elif/else notes
+
+if EXPRESSION:
+
+elif EXPRESSION:
+
+else:
 '''
 
-x = 1  # Change these numbers
-
-x = x * 2  # using the arithmetic cheat sheet above times it by the number you set
-
-print(x)
-
+# if expression:
+# in english this means if expression then
+# if 1 == 1:
+# this means IF 1 is equal to 1 THEN somthing happens? (yes)
