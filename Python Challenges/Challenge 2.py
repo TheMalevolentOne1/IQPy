@@ -1,5 +1,12 @@
-# this is for challenge 2 :) from the website
-#okay lemme check it rq
+'''
+Write a program that:
+• asks the user to input two numbers
+• calculates the average
+• outputs the result
+
+Variables
+Math
+'''
 
 print("Give me a number between 1 and 10")
 number1 = int(input("number 1?"))
