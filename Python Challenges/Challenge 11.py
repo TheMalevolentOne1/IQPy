@@ -7,3 +7,6 @@ characters there are in the sentence
 Variables
 String Manipulation
 '''
+
+user_sentence = input("Sentence")
+print(len(user_sentence))

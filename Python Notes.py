@@ -35,6 +35,8 @@ Arithmetic Notes
 * means times
 / means divide
 % means modular (don't worry about this piece of shit yet)
+** means power (2**2=4)
+// means floor division which will divide two numbers and then round to the lowest value as an integer
 
 always include f-string while printing (remember the curly brackets) { }
 example:
@@ -90,5 +92,49 @@ if name == "kyle":
     print("this works")
 else:
     print("this is wrong.")
-'''
 
+Arrays/Lists
+
+An array is a list of things specifically different datatypes
+
+EXAMPLE OF RANDOM
+
+import random
+
+shopping_list = ["orange", "apple", "pear"]
+
+# from here you can use this list of items to get a random choice
+
+print(random.choice(shopping_list))
+
+
+ARRAY NOTES
+
+example_array = ["hi", "bye", "sigh"]
+
+An array has indexes which are the way you reference the individual values inside of them
+
+EXAMPLE
+
+print(example_array[0]) -> "hi"
+print(example_array[1]) -> "bye"
+print(example_array[2]) -> "sigh"
+
+print(example_array[3]) -> Would produce an error because there is no 4th item in the list
+
+METHODS FOR ARRAYS
+
+example_array.append(item) -> adds whatever is inside the brackets onto the end of the example_array
+example_array.insert(item, index) -> adds whatever is inside the brackets into a specific index of the example_array
+example.array.reverse() -> reverses the array
+I'll add more when it comes to needing them :)
+
+
+STRING MANIPULATION
+
+example_string = "hello world"
+
+example_string.count("hello") -> 1
+example_string.replace("world", "WORLD") -> print(example_string) -> hello WORLD
+len(example_string) -> length of the string -> 11
+'''

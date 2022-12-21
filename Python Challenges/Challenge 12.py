@@ -6,3 +6,6 @@ Write a program that:
 Variables
 String Manipulation
 '''
+
+sentence = input("Sentence: ")
+print(sentence.upper())

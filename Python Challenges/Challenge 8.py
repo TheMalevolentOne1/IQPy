@@ -11,7 +11,15 @@ C
 Less than 35
 D
 
-#is it out of 100 marks?
 Variables
-If/Elif/Else
+If/Elif/Else #please see first if statement
 '''
+mark = int(input("Mark out of 100: "))
+if mark >= 75:
+    print("Grade: A")
+elif mark >= 60:
+    print("Grade: B")
+elif mark >= 35:
+    print("Grade: C")
+else:
+    print("Grade: D")
