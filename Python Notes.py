@@ -5,7 +5,7 @@ The programming Fundamentals
 
 Sequence - The order in which programs run (line by line)
 Selection - If/Elif/Else Statements
-Iteraction - For/While Loops
+Iteration - For/While Loops
 
 
 BASIC DATATYPES
@@ -57,8 +57,38 @@ not
 
 EXAMPLES OF ABOVE
 
-if 1 == 1 and 2 == 2:
+if 1 == 3:
     print("Hello World")
+else:
+    print("1 is not equal to 3")
 
 English: if 1 is equal to 1 and 2 is equal to 2 then print Hello World
+
+
+
+Libraries
+
+A library is programming made by someone else either built into a programming language
+OR made by other developers
+
+Libraries can be:
+Time
+Random
+
+Or more complex like tkinter which is a GUI creator essentially.
+
+
+Beginnings of String Manipulation
+
+print("kyle".title())
+print("KYLE".lower())
+print("kyle".upper())
+
+name = input("Name: ").lower()
+
+if name == "kyle":
+    print("this works")
+else:
+    print("this is wrong.")
 '''
+
