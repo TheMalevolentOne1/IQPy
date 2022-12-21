@@ -1,3 +1,14 @@
+'''
+Write a program that:
+• asks the user to input two numbers
+• divides the first number by the second
+number
+• outputs the result
+
+Variables
+Math
+'''
+
 print("please input two numbers")
 number_one = int(input("number one?"))
 number_two = int(input("number two?"))

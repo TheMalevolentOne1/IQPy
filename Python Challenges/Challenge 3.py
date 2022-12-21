@@ -1,9 +1,13 @@
-# the code that scared lorant- oh god
+'''
+Write a program that:
+• asks the user to input the width and
+height of a rectangle
+• calculates the area
+• outputs the result
 
-x = int(input("age: "))
-
-
-
+Variables
+Math
+'''
 print("give the length and width of a retangle to find its area")
 
 length = int(input("length of the rectangle? "))

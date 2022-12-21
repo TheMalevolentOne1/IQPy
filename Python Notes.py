@@ -1,4 +1,11 @@
 '''
+The programming Fundamentals
+
+Sequence - The order in which programs run (line by line)
+Selection - If/Elif/Else Statements
+Iteraction - For/While Loops
+
+
 BASIC DATATYPES
 
 INTEGER - Whole Number
@@ -32,17 +39,26 @@ example:
 
 '''
 '''
-
 If/elif/else notes
 
-if EXPRESSION:
+IMPORTANT SYMBOLS
+Symbol | English
+!= - not equal to
+== - is equal to
+<= - greater then or equal to
+>= - less than or equal to
+> - less than
+< - greater then
 
-elif EXPRESSION:
+IMPORTANT KEY WORDS
+and
+or
+not
 
-else:
+EXAMPLES OF ABOVE
+
+if 1 == 1 and 2 == 2:
+    print("Hello World")
+
+English: if 1 is equal to 1 and 2 is equal to 2 then print Hello World
 '''
-
-# if expression:
-# in english this means if expression then
-# if 1 == 1:
-# this means IF 1 is equal to 1 THEN somthing happens? (yes) yeah
