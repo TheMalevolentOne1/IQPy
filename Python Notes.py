@@ -39,8 +39,6 @@ Arithmetic Notes
 always include f-string while printing (remember the curly brackets) { }
 example:
 
-'''
-'''
 If/elif/else notes
 
 IMPORTANT SYMBOLS
