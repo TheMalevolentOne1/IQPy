@@ -1,4 +1,6 @@
 '''
+https://mradamscs.files.wordpress.com/2018/06/python_complete.pdf -- link to challenges
+
 The programming Fundamentals
 
 Sequence - The order in which programs run (line by line)
