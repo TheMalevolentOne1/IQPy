@@ -41,5 +41,6 @@ print(example_array_two)
 print("--Array Reverse Example--")
 print(example_array_two)
 example_array_two.reverse() #-> reverses the array
+
 print("Up: Unreversed Array \nBelow: Reversed Array")
 print(example_array_two)

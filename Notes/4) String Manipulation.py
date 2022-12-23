@@ -2,7 +2,11 @@
 
 x = 100
 
-print("Number: "+x)
+print("Number: "+str(x)) #Converting one datatype to another is called Casting
+
+# The example above: due to the + type of concatenation it can not add it to the string due to x being an int value
+
+
 
 #Does not add a space to the end of the string
 
@@ -12,7 +16,7 @@ print("Number:",x)
 
 print(f"Number: {x}")
 
-#Easiest way to control the formatting of the string
+#Easiest way to control the formatting of the string (does not require casting)
 
 
 #Beginnings of String Manipulation
@@ -40,3 +44,21 @@ example_string = "hello world"
 print(example_string.count("hello"))
 print(example_string.replace("world", "WORLD"))
 print(len(example_string))
+
+
+# isalpha Method - checks if the entire string is only the letters a-z no special case letters
+
+example_isalpha_string = "Hello"
+
+print(example_isalpha_string.isalpha()) #-> true
+
+
+# isalnum Method - checks if the string is alphanumeric - letters a-z OR numbers 0-9 OR BOTH
+
+print(example_isalpha_string.isalnum()) #-> true
+
+example_isalnum_string = "Hello 12"
+
+print(example_isalnum_string.isalnum()) #-> false
+
+# Special Characters Including spaces are NOT alphanumeric so the value returned is false
