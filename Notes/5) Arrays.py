@@ -1,7 +1,14 @@
 '''
 Arrays/Lists
 
-An array is a list of things specifically different datatypes
+An array is a list of things specifically different datatypes.
+
+There are different types of arrays:
+[] - Lists - Anything can be added or removed
+() - Tuple - Nothing can be added, removed or changed
+{} - Set - Unordered and Unchangeable, but values can be added and removed and it does not permit duplicates
+dict = {"key":"value"} - Dictionary - Has a key and value pair. Will explain at a later date.
+
 '''
 
 example_array = ["String",1,True,2.2]
@@ -9,7 +16,7 @@ example_array = ["String",1,True,2.2]
 for i in example_array:
     print(type(i))
 
-#This will show the datatype of each item in the example_array
+#This will show the datatype of each item in the example_array ^
 
 
 
@@ -42,5 +49,5 @@ print("--Array Reverse Example--")
 print(example_array_two)
 example_array_two.reverse() #-> reverses the array
 
-print("Up: Unreversed Array \nBelow: Reversed Array")
+print("Up: Unreversed Array\nBelow: Reversed Array")
 print(example_array_two)
