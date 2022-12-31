@@ -16,23 +16,22 @@ example_array = ["String",1,True,2.2]
 for i in example_array:
     print(type(i))
 
-#This will show the datatype of each item in the example_array ^
-
+# This will show the datatype of each item in the example_array ^
 
 
 import random
 
 example_array_two = ["hi", "bye", "sigh"]
 
-#An array has indexes which are the way you reference the individual values inside of them
+# An array has indexes which are the way you reference the individual values inside of them
 
 print(example_array_two[0]) #-> "hi"
 print(example_array_two[1]) #-> "bye"
 print(example_array_two[2]) #-> "sigh"
 
-#print(example_array_two[3]) #-> Would produce an error because there is no 4th item in the list
+# print(example_array_two[3]) #-> Would produce an error because there is no 4th item in the list
 
-#METHODS FOR ARRAYS
+# METHODS FOR ARRAYS
 
 item = "exampleItem"
 index =  random.randint(1,len(example_array_two))

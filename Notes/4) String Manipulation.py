@@ -39,11 +39,13 @@ else:
     print("this is wrong.")
 
 
-example_string = "hello world"
+example_string = "hello hello world"
 
-print(example_string.count("hello"))
+print(example_string.count("hello")) # -> 2 instance of hello in this string
+
 print(example_string.replace("world", "WORLD"))
-print(len(example_string))
+
+print(len(example_string)) # -> number of characters in string
 
 
 # isalpha Method - checks if the entire string is only the letters a-z no special case letters

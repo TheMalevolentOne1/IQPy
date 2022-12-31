@@ -6,4 +6,10 @@ Write a program that:
 
 Variables
 String Manipulation
+
+btw I left notes in string manipulation
+
+I also left replace notes there too *sobbing*
 '''
+sent = input("sentence:")
+print(sent.count("the"))
