@@ -16,7 +16,7 @@ import random
 
 ai_answers = ["rock", "paper", "scissors"]
 
-user_ans = input("Rock Paper OR Scissors?").lower()
+user_ans = input("Rock Paper or Scissors?").lower()
 ai_ans = random.choice(ai_answers)
 
 if user_ans == ai_ans:

@@ -11,5 +11,5 @@ btw I left notes in string manipulation
 
 I also left replace notes there too *sobbing*
 '''
-sent = input("sentence:")
+sent = input("What is the sentence?")
 print(sent.count("the"))

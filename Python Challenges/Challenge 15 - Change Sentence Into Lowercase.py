@@ -6,3 +6,6 @@ Write a program that:
 Variables
 String Manipulation
 '''
+sen = input("What is the sentence?")
+print(sen.lower)
+

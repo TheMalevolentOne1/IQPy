@@ -7,5 +7,5 @@ Variables
 String Manipulation
 '''
 
-sentence = input("Sentence: ")
+sentence = input("What is the sentence?")
 print(sentence.upper())

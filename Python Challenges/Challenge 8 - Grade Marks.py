@@ -14,7 +14,7 @@ D
 Variables
 If/Elif/Else #please see first if statement
 '''
-mark = int(input("Mark out of 100: "))
+mark = int(input("What was the mark out of 100? "))
 if mark >= 75:
     print("Grade: A")
 elif mark >= 60:

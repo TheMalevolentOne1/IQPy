@@ -7,8 +7,8 @@ age
 Variables
 '''
 
-age = int(input("age?: "))
-print(f"your age is {age}")
+age = int(input("What is your age? "))
+print(f"Your age is {age}")
 
 '''
 age is equal to integer inputted after the question age?:

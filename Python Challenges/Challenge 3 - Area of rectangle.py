@@ -8,7 +8,7 @@ height of a rectangle
 Variables
 Math
 '''
-print("give the length and width of a retangle to find its area")
+print("Give the length and width of a rectangle to find its area")
 
 length = int(input("length of the rectangle? "))
 width = int(input("width of the rectangle? "))

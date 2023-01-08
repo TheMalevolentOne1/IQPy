@@ -8,5 +8,5 @@ Variables
 String Manipulation
 '''
 
-user_sentence = input("Sentence")
+user_sentence = input("What is the sentence?")
 print(len(user_sentence))

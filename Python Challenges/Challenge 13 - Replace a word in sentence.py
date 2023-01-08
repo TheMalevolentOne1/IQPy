@@ -12,7 +12,7 @@ Write a program that:
 Variables
 String Manipulation
 '''
-sentence = input("sentence: ")
+sentence = input("What is the sentence?")
 replacement = input("word you'd like to replace?")
 placement = input("what word to replace with")
 print(f"{sentence.replace(replacement, placement)}")

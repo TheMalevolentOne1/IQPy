@@ -72,3 +72,16 @@ elif favsub == "geography":
     print("I HATE YOUR SOUL") # same that lesson suckkkkkkeddddddd I HATE IT WITH A BURNING PASSIONHSUDUIAHDSADGSUIADHASHDUSAHUIDHSAIDUJSIAHDUISHDYUGYUDGSAYSUDG
 else:
     print("oh right cool")
+
+'''
+ I want you to try to make a program 
+ that will ask the user their name and 
+ make that into uppercase and then 
+ if that name is the same of yours say "cool" 
+ if it isn't say "lame"
+ '''
+name = input("what is your name?").upper()
+if name == "AKOS":
+    print("cool")
+else:
+    print("lame")
