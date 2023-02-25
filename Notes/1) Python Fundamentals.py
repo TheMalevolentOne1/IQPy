@@ -45,7 +45,7 @@ else:
 
 
 #This says if x is less than 50 
-#else if x is greater then 50 and less than or equal to 99
+#else if x is greater than 50 and less than or equal to 99
 #else if both those are wrong then x must be equal to 100
 
 
