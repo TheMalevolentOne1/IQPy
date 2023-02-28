@@ -9,11 +9,21 @@ x = creates a new file
 
 '''
 
+import os
+
 try: # ignore
     open("newTextFile", 'x')
 
     file = open("newTextFile", 'a')
 
     file.write("This text will be added to the new file")
+
+    file.close()
+
+
 except FileExistsError: # ignore
-    print("The file already exists. Ignore this.")
+    arr = os.path.abspath(__file__).split("\\")
+    arr.pop()
+    print(arr)
+    arr = "/".join(arr)
+    os.remove(arr+"/newTextFile.txt")
