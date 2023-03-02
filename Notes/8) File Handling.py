@@ -24,6 +24,5 @@ try: # ignore
 except FileExistsError: # ignore
     arr = os.path.abspath(__file__).split("\\")
     arr.pop()
-    print(arr)
     arr = "/".join(arr)
     os.remove(arr+"/newTextFile.txt")
