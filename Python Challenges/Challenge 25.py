@@ -13,6 +13,7 @@ Variables
 File Handling
 '''
 
+'''
 while True:
     menu = int(input("What would you like to do? \n 1) Add to file \n 2) Read file \n 3) Quit Program"))
     if menu == 1:
@@ -24,7 +25,7 @@ while True:
         if year <= 11 and year >= 7:
             if gender == "Male" or gender == "Female" or gender == "Intersex":
                 file = open("AfterSchoolClub", "a")
-                file.write(f"First Name: {f_name}, Last Name: {l_name}, Gender: {gender}, Year: {year}\n")
+                file.write(f"First Name: {f_name}, Last Name: {l_name}\nGender: {gender}z\nYear: {year}\n")
                 file.close()
             else:
                 print("Incorrect Gender was found, please try again.")
@@ -38,3 +39,9 @@ while True:
         quit()
     else:
         print("try again")
+'''
+
+file = open("scores", "r")
+lstFile = file.read(-1).split("\n")
+print(lstFile)
+
