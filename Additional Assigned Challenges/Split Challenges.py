@@ -20,4 +20,6 @@ for i in range(len(sentence_words)):
 '''
 Activity 4:
 Make all the individual sentence_words back into their original sentence
+
+This will require teaching.
 '''
