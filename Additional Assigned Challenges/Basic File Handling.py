@@ -12,5 +12,8 @@ ensure the file is closed with .close() method
 
 
 '''
-Please 
+Please read the file called Basic_File_Handling with the read type
+Please write only the first 12 letters in the file
 '''
+
+# Write Code Below
