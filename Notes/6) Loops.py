@@ -10,10 +10,10 @@
 
 user = "" # this defines the user variable as an empty string
 
-'''
+
 while user != "Akos": # while user IS NOT EQUAL to Akos then
     user = input("Name: ").title() # define the user variable as the answer to the question Name:
-'''
+
 
 # For loops are loops that run a certain number of times (they can be used with arrays :) )
 
