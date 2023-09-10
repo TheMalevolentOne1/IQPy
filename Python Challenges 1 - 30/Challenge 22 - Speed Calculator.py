@@ -12,7 +12,7 @@ speed = distance / time
 Variables
 Maths
 '''
-# this shit gay fr
+
 dist = int(input("What is the distance in meters?"))
 sec = int(input("What was the time in seconds?"))
 print(f"Your average speed is:\n{dist/sec}m/s")

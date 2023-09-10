@@ -11,3 +11,10 @@ Variables
 If/Elif/Else
 Random Library
 '''
+import random
+
+ai_ans = ["rock","paper","scissors"]
+
+user_ans = input("Rock, Paper or Scissors?").lower()
+
+ran_ans = random.choice(ai_ans)

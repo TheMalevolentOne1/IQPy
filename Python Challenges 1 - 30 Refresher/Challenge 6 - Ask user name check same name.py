@@ -7,3 +7,9 @@ Write a program that:
 Variables
 If/Else Statement
 '''
+name = input("Whats your name?").lower()
+if name == "akos":
+    print("You're cool")
+else:
+    print("Nice to meet you")
+# asks user for name, using if/else statements compares it to 'akos' and checks name for the same name

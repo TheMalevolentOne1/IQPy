@@ -9,3 +9,4 @@ Variables
 
 age = int(input("Age: "))
 print("Your age is:", age)
+# asks user for age, and the outputs the age with the use of age as a variable

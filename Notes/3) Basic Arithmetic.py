@@ -23,3 +23,12 @@ i = 5
 5 /= 1 means 5 = 5 / 1
 
 '''
+
+'''
+Akos keeps checking this as arithmatic which is why it is here
+
+<= - greater then or equal to
+>= - less than or equal to
+> - less than
+< - greater then
+'''

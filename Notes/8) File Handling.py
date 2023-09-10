@@ -11,7 +11,7 @@ x = creates a new file
 
 import os
 
-try: # ignore
+try:
     open("newTextFile", 'x')
 
     file = open("newTextFile", 'a')

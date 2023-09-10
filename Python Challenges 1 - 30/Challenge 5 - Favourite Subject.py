@@ -9,7 +9,6 @@ that you like that subject as well
 Variables
 '''
 
-# before you begin please read through the notes I added in the python notes area :)
 name = input("What is your name?").title()
 fav_subject = input(f"{name}, what is your favourite subject?")
 print(f"i like {fav_subject} too")

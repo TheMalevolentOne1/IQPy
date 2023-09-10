@@ -14,3 +14,13 @@ D
 Variables
 If/Elif/Else #please see first if statement
 '''
+mark = int(input("Mark: "))
+if mark >= 75:
+    print("Grade A")
+elif mark >= 60:
+    print("Grade B")
+elif mark >= 35:
+    print("Grade C")
+elif mark < 35:
+    print("Grade D")
+# uses if and elif to compare mark to find the mark

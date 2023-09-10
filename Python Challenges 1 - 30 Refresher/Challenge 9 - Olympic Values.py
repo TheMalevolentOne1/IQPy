@@ -9,19 +9,10 @@ and Friendship)
 Variables
 If/Elif/Else
 '''
-'''
+
 olympic_value = input("Please enter one of the Olympic Values: ").lower()
 if olympic_value == "respect" or olympic_value == "excellence" or olympic_value == "friendship":
     print("That's correct")
 else:
-    print("Try again")   
-    
-'''
+    print("Try again")
 
-# Added of list and for loop (New Code 02/03/2023) Below:
-'''
-Requirements:
-For Loop
-List
-If/Elif/Else (May not be exactly as described)
-'''

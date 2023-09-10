@@ -12,4 +12,3 @@ if name == "akos":
     print("You're cool")
 else:
     print("Nice to meet you")
-#this okay? Yep :) Please come to the notes section I have something to teach you
